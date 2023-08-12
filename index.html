@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whole Strike</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Work Sans' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Milonga' rel='stylesheet'>
+
+</head>
+
+<body>
+<header>
+  <div class="container">
+    <div class="row"> <!-- col 1 -->
+      <div class="mt-2 col-3 col-lg-2 col-md-3 navbar " id="brand-nav">
+        <a class="navbar-brand" href="#">
+          <img src="css/brand logo nav.png" width="82px" height="54px" alt="">
+        </a>
+      </div><!-- col 1 -->
+      <div class="col-xl-7 col-md-6 col-sm-4 mt-1" id="navbarSupportedContent"> <!-- col 2 -->
+        <nav class="navbar navbar-expand-md navbar-light">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navcollapse" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navcollapse">
+        <ul class="nav">
+          <li class="nav-item  mx-xl-5 mx-lg-3">
+            <a class="nav-link" href="#">Product</a>
+          </li>
+          <li class="nav-item mx-xl-5 mx-lg-5">
+            <a class="nav-link" href="#">FAQ</a>
+          </li>
+          <li class="nav-item mx-xl-4 mx-lg-4">
+            <a class="nav-link" href="#">Contact us</a>
+          </li>
+        </ul>
+      </div>
+        </nav>
+      </div> <!-- col 2 -->
+      <div class="col-2 col-lg-2 mr-lg-1 mt-4 col-sm-1 d-none d-md-block" id="searchform"> <!-- col 3 -->
+        <form class="form-inline">
+          <input class="form-control" type="search" placeholder="Search" aria-label="Search" id="searchInput" style="width: 180px" height="38.5">
+        </form>
+        </div><!-- col 3 -->
+        <div class="col-1 mt-2 navbar" id="searchButton">
+          <button class="btn btn-outline-success" type="button" id="searchButton" onclick="toggleSearchInput()" style="background-image: url(css/magnifer.svg); width: 25px; height: 22.845px; border: none; cursor: pointer; background-repeat: no-repeat;">
+          </button>
+      </div>
+    </div>
+  </div>
+</header>
+<!-- Page 1 -->
+<div class="container-fluid" id="page1">
+  <div class="row">
+    <div class="hero-content-inner">
+        <h1>"Don't miss out on the juicy news!</h1>
+        <h2>&nbsp &nbsp Subscribe to our orange drink newsletter now."</h2>
+    </div>
+      <div class="row subscribe-container">
+        <input class="form-control" id="newsletter" type="text" placeholder="Enter your email">
+        <button type="button" id="btn-subs">Subscribe</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Page 1 -->
+
+<div class="container-fluid" id="bg">
+  <div class="row">
+    <div class="col-6" id="col1"> <!-- col 1-->
+      <div id="brandtext">
+      <h1>Whole <br> &nbsp;&nbsp;&nbsp; Strike</h1>
+      <h2>"Orange you thirsty? <br> We've got just the thing" </h2>
+      </div>
+      <div id="btn-content">
+        <button id="ordernow" type="button">Order Now</button>
+        <button id="chatus" type="button">Chat Us</button>
+      </div>
+    </div> <!-- col 1-->
+  <div class="col-6" id="col2"> <!-- col 2-->
+    <div class="side-image" id="side-img">
+      <a class="img-test">
+        <img src="css/bottle 1.png" height="726px" width="100%">
+      </a>
+    </div>
+</div> 
+</div> <!-- col 2-->
+
+<!-- end of page 2-->
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+<script src="js/jquery-1.11.3.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

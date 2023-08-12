@@ -1,0 +1,193 @@
+body {
+    font-size: 15px;
+    color: white;
+    background-color:#E83F4D;
+    font-family: 'Merriweather', serif, 'Work Sans';;
+    
+}
+
+header {
+    background-color: #E23A4B;
+}
+
+#searchButton {
+    position: absolute;
+    left: 80%;
+    margin-top: 25px !important;
+}
+
+#searchform {
+    margin-top: 30px !important;
+}
+
+#navbarSupportedContent a {
+    color: var(--white, #FFF);
+    font-family: 'Merriweather';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+/* Adjust width for large screens (lg) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    #searchInput {
+        width: 150px !important; /* Change this value as needed */
+    }
+}
+
+/* Adjust width for medium screens (lg) */
+@media (min-width: 768px) and (max-width: 991px) {
+    #searchInput {
+        width: 100px !important; /* Change this value as needed */
+    }
+}
+
+/* Adjust width for small screens (lg) */
+@media (min-width: 576px) and (max-width: 768px) {
+    #searchInput {
+        width: 50px !important; /* Change this value as needed */
+    }
+}
+
+/* end of header */
+
+#page1 {
+    background-color: #E83F4D;
+    background: url(arrangement-with-orange-juice-fruits2\ 1.png) no-repeat center;
+    height: 844px;
+    width: 100%;
+}
+
+.hero-content-inner {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Merriweather';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 160px; 
+}
+
+.subscribe-container {
+    margin-top: 60px; /* Adjust this margin as needed */
+    margin-left: 0px;
+    padding-left: 350px;
+
+  }
+
+#newsletter {
+    width: 50%;
+    margin-right: 10px; /* Add margin-right to separate input and button */
+    color: #222325;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+  }
+
+#btn-subs {
+    width: 116px;
+    height: 36px;
+    margin-left: 10px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 15px;
+    text-transform: capitalize;
+    background-color: #27A6E8;
+    color: #FFF;
+    box-shadow: 1px 1px 3px 0px rgba(16, 66, 93, 0.90), -1px -1px 2px 0px rgba(62, 255, 255, 0.90), 1px -1px 2px 0px rgba(16, 66, 93, 0.20), -1px 1px 2px 0px rgba(16, 66, 93, 0.20), -1px -1px 2px 0px rgba(16, 66, 93, 0.50) inset, 1px 1px 2px 0px rgba(62, 255, 255, 0.30) inset;
+    cursor: pointer;
+    transition: all ease .2s;
+}
+#btn-subs:hover{
+    border-color: #FFF;
+    color: #FFF;
+    background: transparent;
+}
+
+/* end of page 1 */
+
+#bg {
+    background-color: #E83F4D;
+    background: url(page\ 2.png) no-repeat center;
+    height: 1199px;
+    width: 100%;
+}
+
+#brandtext {
+
+    margin-top: 430px;
+}
+
+#brandtext h1{
+    color: #FFF;
+    font-family: 'Milonga';
+    font-size: 64.72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+    margin-left: 100px;
+}
+
+#brandtext h2 {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Merriweather';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 60px;
+    margin-right: 100px;
+}
+
+#btn-content {
+    margin-top: 120px;
+    margin-left: 130px;
+}
+
+#ordernow {
+    color: #FFF;
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+border-radius: 10px;
+background: #27A6E8;
+box-shadow: 1px 1px 3px 0px rgba(16, 66, 93, 0.90), -1px -1px 2px 0px rgba(62, 255, 255, 0.90), 1px -1px 2px 0px rgba(16, 66, 93, 0.20), -1px 1px 2px 0px rgba(16, 66, 93, 0.20), -1px -1px 2px 0px rgba(16, 66, 93, 0.50) inset, 1px 1px 2px 0px rgba(62, 255, 255, 0.30) inset;
+display: inline-flex;
+padding: 6px 6px 7px 5px;
+justify-content: center;
+align-items: center;
+}
+
+#chatus {
+    color: #9C1A25;
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+display: inline-flex;
+padding: 6px 20px 7px 19px;
+justify-content: center;
+align-items: center;
+border-radius: 10px;
+background: var(--white, #FFF);
+box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+margin-left: 20px;
+}
+
+#side-img {
+    background-color: #E83F4D;
+    background: no-repeat;
+    margin-top: 230px;
+}
+
+/* end of page 2 */
